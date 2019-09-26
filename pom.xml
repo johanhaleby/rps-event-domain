@@ -14,8 +14,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.11</maven.compiler.source>
-        <maven.compiler.target>1.11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <junit.version>5.5.2</junit.version>
     </properties>
 
@@ -49,7 +49,6 @@
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.13.2</version>
-            <type>bundle</type>
             <scope>test</scope>
         </dependency>
     </dependencies>
